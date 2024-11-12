@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #530000; /* Changed text color to #530000 */
+    color: #333;
 }
 
 header {
     background-color: #530000;
-    color: white; /* Ensures header text is white */
+    color: white;
     padding: 20px;
     text-align: center;
 }
@@ -21,7 +21,7 @@ section {
 }
 
 h1, h2 {
-    color: white; /* Changed header text color to white */
+    color: #530000;
 }
 
 table {
