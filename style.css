@@ -18,23 +18,10 @@ section {
     padding: 20px;
     background-color: white;
     border-radius: 5px;
-    line-height: 1.6; /* Increase line gap for the entire section */
 }
 
-h1 {
-    color: white; /* White color for h1 */
-}
-
-h2 {
-    color: #530000; /* Dark red color for h2 */
-}
-
-p {
-    color: white; /* White color for <p> text in header */
-}
-
-.abstract {
-    line-height: 1.6; /* Increase line gap for abstract section */
+h1, h2 {
+    color: #530000;
 }
 
 table {
