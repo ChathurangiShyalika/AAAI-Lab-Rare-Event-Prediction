@@ -122,31 +122,32 @@ th {
 }
 
 /* Add this to your style.css */
+/* Add this to your style.css */
 header {
     position: relative;
     padding: 20px;
 }
 
-.logos {
+.header-content {
+    text-align: center;
+    position: relative;
+}
+
+.left-logos, .right-logos {
     position: absolute;
-    bottom: 10px; /* position logos at the bottom */
-    left: 50%;
-    transform: translateX(-50%); /* center logos horizontally */
+    bottom: 0;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    gap: 10px;
 }
 
 .left-logos {
-    display: flex;
+    left: 0;
     justify-content: flex-start;
-    gap: 10px; /* space between left logos */
 }
 
 .right-logos {
-    display: flex;
+    right: 0;
     justify-content: flex-end;
-    gap: 10px; /* space between right logos */
 }
 
 .left-logos img, .right-logos img {
