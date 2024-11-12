@@ -28,15 +28,172 @@
 
     <section id="abstract">
         <h2>Abstract</h2>
-        <p>In the age of Industry 4.0 and smart automation...</p>
+        <p>In the age of Industry 4.0 and smart automation, unplanned
+downtime is costing industries over $50 billion annually.
+Even with preventive maintenance, industries like automotive
+lose more than $2 million per hour due to downtime caused
+by unexpected or “rare” events1. The extreme rarity of these
+events makes their detection and prediction a significant challenge
+for AI practitioners. Factors such as the lack of highquality
+data, methodological gaps in the literature and limited
+practical experience with multimodal data exacerbate the
+difficulty of rare event detection and prediction. This lab will
+provide hands-on experience to learn how to address these
+challenges by exploring the entire lifecycle of rare event analysis,
+from data generation and preprocessing to model development
+and evaluation. The development of a process ontology
+and its use for user-level explanations will also be demonstrated.
+Participants will be introduced to the limited publicly
+available datasets and, more importantly, gain hands-on experience
+with a newly developed multi-modal dataset designed
+explicitly for rare event prediction. Through several hands-on
+sessions, participants will learn how to generate such a highquality
+dataset and the practical use of this dataset to develop
+rare event prediction models. Those interested in developing
+AI models involving diverse multimodal data for other applications
+will also benefit from participation.</p>
     </section>
 
     <section id="introduction">
         <h2>Introduction</h2>
-        <p>Rare event prediction is pivotal in industrial applications...</p>
+        <p>Rare event prediction is pivotal in industrial applications,
+particularly in Industry 4.0. These anomalous events, characterized
+by their infrequent occurrence, pose significant
+challenges for predictive modeling due to the skewed nature
+of the data and the complexity of evaluation and lead to
+unplanned downtime, reduced equipment lifespan, and increased
+energy consumption. Traditional machine learning
+methods often struggle in the case of rare events, mainly due
+to the scarcity of high-fidelity data and the complex interdependencies
+between system components.</p>
+        <p>This lab aims to provide participants with practical knowhow
+on the entire lifecycle of rare event prediction and the
+process of generating explanations for the predicted outcome.
+Specifically, we focus on conducting four hands-on
+sessions covering (i) the existing dataset and deep dive into
+the newly developed FutureFactories dataset, (ii) addressing
+data scarcity, imbalance and improving the quality
+of data through data augmentation, (iii) exploring the algorithmic
+and evaluation methods in rare event prediction, and
+(iv) the process of developing a process ontology for the
+manufacturing domain and its use in generating user-level
+explanations for the predicted outcome. </p>
     </section>
 
-    <!-- Other sections here -->
+<section id="goal">
+    <h2>Goal of the Lab</h2>
+    <ul>
+        <li>The target audience includes researchers, data scientists, and practitioners working in industrial AI, particularly those focused on predictive maintenance, anomaly detection, and the application of machine learning techniques in complex manufacturing environments.</li>
+        <li>
+            <ul>
+                <li>Develop a thorough understanding of the data used in manufacturing, the machinery involved, data collection methodologies, and the specific challenges encountered in manufacturing environments.</li>
+                <li>Gain a comprehensive understanding of methods for handling data scarcity in rare event and anomaly prediction, including the application of data augmentation techniques.</li>
+                <li>Acquire hands-on experience with various predictive modeling approaches for rare event detection and anomaly prediction using real-world manufacturing datasets.</li>
+                <li>Develop insights into the significance of integrating multimodal data (e.g., time-series and images) for enhancing anomaly detection and prediction.</li>
+                <li>Learn to apply process ontology for generating user-level explanations, improving the interpretability and explainability of AI models in manufacturing settings.</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+    <section id="schedule">
+
+<table>
+    <caption>Table 1: Detailed Outline of the Lab</caption>
+    <thead>
+        <tr>
+            <th>Time</th>
+            <th>Activity</th>
+            <th>Presenter</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>10 mins</td>
+            <td>Introduction and Overview: Introduction to rare event prediction, anomaly detection, smart manufacturing and the objectives of the lab.</td>
+            <td>Amit Sheth</td>
+        </tr>
+        <tr>
+            <td>20 mins</td>
+            <td>Exploring the Datasets for Rare Event Analysis: Overview of the public datasets available, deep dive into Future Factories (FF) setup and data collection for different version of FF-dataset.</td>
+            <td>Ruwan Wickramarachchi</td>
+        </tr>
+        <tr>
+            <td>20 mins</td>
+            <td>Problem 1: Addressing Data Scarcity and Improving the Quality: Hands-on lab focusing on using data augmentation techniques and modeling approaches to improve rare event prediction.</td>
+            <td>Chathurangi Shyalika</td>
+        </tr>
+        <tr>
+            <td>20 mins</td>
+            <td>Problem 2: Model Selection, Development and Evaluation: Discussion and hands-on lab for anomaly prediction using robust modeling techniques, including capturing dependencies between anomalies.</td>
+            <td>Dhaval Patel</td>
+        </tr>
+        <tr>
+            <td>20 mins</td>
+            <td>Problem 3: The Development and Use of Process Ontology: Hands-on session on how to develop a process ontology for rare event and anomaly prediction and its use for explanation generation.</td>
+            <td>Revathy Venkataramanan</td>
+        </tr>
+        <tr>
+            <td>15 mins</td>
+            <td>Q&amp;A Session: Addressing participants’ questions and providing further clarifications.</td>
+            <td>All presenters</td>
+        </tr>
+    </tbody>
+</table>
+
+    </section>
+
+<section id="technical-setup">
+    <h2>Technical Setup and Tools</h2>
+    <p>To ensure an optimal learning experience during the lab, participants should bring a laptop with Python 3 installed. Familiarity with basic terminal operations is also recommended, as it will facilitate smoother interaction with the tools and platforms used throughout the lab. The organizers will provide all necessary software requirements and dependencies to ensure that participants can concentrate on the hands-on exercises and core content without being distracted by setup issues. The lab will primarily utilize the following tools and platforms:</p>
+
+    <ul>
+        <li>Python for programming and machine learning model implementation.</li>
+        <li>Google Colab provides a cloud-based environment to run Python code and easy access to high-performance GPUs for computationally intensive tasks.</li>
+        <li>PyTorch or TensorFlow for deep learning tasks.</li>
+        <li>Jupyter Notebooks for interactive coding.</li>
+        <li>Scikit-learn for basic machine learning models.</li>
+        <li>Pandas and NumPy for data manipulation.</li>
+        <li>Data visualization tools like Matplotlib or Seaborn.</li>
+    </ul>
+</section>
+
+
+<section id="resources">
+    <h2>Supplementary Materials</h2>
+    <p>The organizers have a rich history of contributions in the domain of rare events and anomaly prediction and conducting well-attended tutorials at international venues. These contributions not only underscore the depth of their expertise but also serve as valuable resources for participants wishing to delve deeper into the subject. The following is a list of supplemental materials that augment the content of the lab:</p>
+
+    <ol>
+        <li><strong>A Comprehensive Survey on Rare Event Prediction:</strong> This paper provides a thorough review of current approaches to rare event prediction, covering data, processing, algorithms, and evaluation methods across various modalities (Shyalika, Wickramarachchi, and Sheth 2023).</li>
+        <li><strong>Evaluating the Role of Data Enrichment Approaches towards Rare Event Analysis in Manufacturing:</strong> This study evaluates how data enrichment techniques, combined with machine learning, enhance rare event detection and prediction in manufacturing processes (Shyalika et al. 2024b).</li>
+        <li><strong>Analog and Multi-modal Manufacturing Datasets Acquired on the Future Factories Platform:</strong> This paper introduces two industry-grade datasets from a manufacturing assembly line, including time series analog and multi-modal data (with images) over 30 hours, introducing anomalies to aid AI research in manufacturing intelligence (Harik et al. 2024).</li>
+        <li><strong>Dataset: Rare Event Classification in Multivariate Time Series:</strong> This paper introduces a multivariate time series dataset from the pulp-and-paper manufacturing industry, featuring sensor readings and rare paper break events, intended for building classification models to predict these events and exploring other supervised or unsupervised approaches (Ranjan et al. 2018).</li>
+        <li><strong>Bosch Production Line Performances Dataset:</strong> Introduces a real-world dataset aimed at predicting internal failures within the manufacturing assembly line processes at Bosch Inc. (Bosch 2016).</li>
+        <li><strong>Autonomous Condition-based Asset Maintenance:</strong> Industrial assets in smart factories are typically monitored using IoT sensor data. This operational setup enables early detection of abnormal conditions in assets through anomaly detection (Patel et al. 2024).</li>
+        <li><strong>Dynamic Process Ontology:</strong> Materials and resources related to Dynamic Process Ontology and its use-cases can be found here - <a href="https://github.com/revathyramanan/Dynamic-Process-Ontology">GitHub Repository</a> and <a href="https://youtu.be/cKsI6zHbL_g">YouTube Video</a>.</li>
+        <li><strong>RI2AP: Robust and Interpretable 2D Anomaly Prediction in Assembly Pipelines:</strong> This paper introduces RI2AP, a method designed for robust and interpretable anomaly prediction in rocket assembly pipelines, addressing key challenges in predicting rare anomalies (Shyalika et al. 2024a).</li>
+        <li><strong>NSF-MAP: Neurosymbolic Multimodal Fusion for Robust and Interpretable Anomaly Prediction in Assembly Pipelines:</strong> This research proposes a neurosymbolic multimodal fusion approach that integrates time series and image data for enhanced and interpretable anomaly prediction in assembly pipelines (<a href="https://github.com/smtmnfg/NSF-MAP">GitHub Repository</a>).</li>
+        <li><strong>Smart Manufacturing Research at Artificial Intelligence Institute, University of South Carolina:</strong> <a href="https://wiki.aiisc.ai/index.php?title=Smart_manufacturing">Smart Manufacturing Wiki</a>.</li>
+        <li><strong>Neurosymbolic AI Research at Artificial Intelligence Institute, University of South Carolina:</strong> <a href="https://wiki.aiisc.ai/index.php?title=Neurosymbolic_Artificial_Intelligence_Research_at_AIISC">Neurosymbolic AI Research Wiki</a>.</li>
+        <li><strong>List of Previously Conducted Tutorials:</strong> <a href="https://aiisc.ai/tutorials.html">Tutorials</a> <strong>Anomaly Detection:</strong> <a href="https://github.com/IBM/anomaly-detection-code-pattern">Anomaly Detection Code Pattern</a>.</li>
+    </ol>
+
+    <p>These materials provide a comprehensive backdrop to the lab, offering participants a holistic understanding of the domain and the organizers’ pioneering contributions.</p>
+</section>
+
+<section id="references">
+    <h2>References</h2>
+    <ul>
+        <li>Bosch. 2016. Bosch Production Line Performance - kaggle.com. <a href="https://www.kaggle.com/c/bosch-production-line-performance">Link</a>. [Accessed 19-Apr-2023].</li>
+        <li>Harik, R.; Kalach, F. E.; Samaha, J.; Clark, D.; Sander, D.; Samaha, P.; Burns, L.; Yousif, I.; Gadow, V.; Tarekegne, T.; et al. 2024. Analog and Multi-modal Manufacturing Datasets Acquired on the Future Factories Platform. <i>arXiv preprint</i> arXiv:2401.15544.</li>
+        <li>Patel, D.; Lin, S.; Shah, D.; Jayaraman, S.; Ploennigs, J.; Bhamidipati, A.; and Kalagnanam, J. 2024. AI Model Factory: Scaling AI for Industry 4.0 Applications. <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>, 37(13): 16467–16469.</li>
+        <li>Ranjan, C.; Reddy, M.; Mustonen, M.; Paynabar, K.; and Pourak, K. 2018. Dataset: rare event classification in multivariate time series. <i>arXiv preprint</i> arXiv:1809.10717.</li>
+        <li>Shyalika, C.; Roy, K.; Prasad, R.; Kalach, F. E.; Zi, Y.; Mittal, P.; Narayanan, V.; Harik, R.; and Sheth, A. 2024a. RI2AP: Robust and Interpretable 2D Anomaly Prediction in Assembly Pipelines. <i>Sensors</i>, 24(10): 3244.</li>
+        <li>Shyalika, C.; Wickramarachchi, R.; El Kalach, F.; Harik, R.; and Sheth, A. 2024b. Evaluating the Role of Data Enrichment Approaches towards Rare Event Analysis in Manufacturing. <i>Sensors</i>, 24(15): 5009.</li>
+        <li>Shyalika, C.; Wickramarachchi, R.; and Sheth, A. 2023. A Comprehensive Survey on Rare Event Prediction. <i>arXiv preprint</i> arXiv:2309.11356.</li>
+    </ul>
+</section>
+
 
     <section id="biographies">
         <h2>Author Biographies</h2>
