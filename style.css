@@ -126,6 +126,8 @@ header {
     position: relative;
     padding: 20px;
     text-align: center;
+    margin-left: 20px;  /* Add space from the left margin */
+    margin-right: 20px; /* Add space from the right margin */
 }
 
 /* Center the content */
@@ -138,20 +140,19 @@ header {
     position: absolute;
     bottom: 10px;  /* Position the logos at the bottom of the header */
     display: flex;
-    gap: 10px;  /* Space between logos */
+    gap: 15px;  /* Space between logos */
 }
 
 .left-logos {
-    left: 10px;  /* Align the left logos to the left side */
+    left: 20px;  /* Align the left logos to the left side with space from margin */
 }
 
 .right-logos {
-    right: 10px;  /* Align the right logos to the right side */
+    right: 20px;  /* Align the right logos to the right side with space from margin */
 }
 
 /* Logo size */
 .left-logos img, .right-logos img {
-    width: 200px; /* Adjust the width of the logos */
-    height: 100px; /* Adjust the height of the logos */
+    width: 200px;  /* Increased width of the logos */
+    height: 100px;  /* Increased height of the logos */
 }
-
