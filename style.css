@@ -120,3 +120,36 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+/* Add this to your style.css */
+header {
+    position: relative;
+    padding: 20px;
+}
+
+.logos {
+    position: absolute;
+    bottom: 10px; /* position logos at the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* center logos horizontally */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-logos {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px; /* space between left logos */
+}
+
+.right-logos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px; /* space between right logos */
+}
+
+.left-logos img, .right-logos img {
+    width: 100px; /* adjust width */
+    height: 50px; /* adjust height */
+}
