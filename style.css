@@ -121,8 +121,6 @@ th {
     background-color: #f2f2f2;
 }
 
-/* Add this to your style.css */
-/* Add this to your style.css */
 header {
     position: relative;
     padding: 20px;
@@ -141,12 +139,12 @@ header {
 }
 
 .left-logos {
-    left: 0;
+    left: 10px;
     justify-content: flex-start;
 }
 
 .right-logos {
-    right: 0;
+    right: 10px;
     justify-content: flex-end;
 }
 
