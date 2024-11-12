@@ -7,15 +7,15 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #530000;
     color: white;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
 }
 
 section {
-    margin: 20px;
-    padding: 20px;
+    margin: 30px;
+    padding: 30px;
     background-color: white;
     border-radius: 5px;
 }
