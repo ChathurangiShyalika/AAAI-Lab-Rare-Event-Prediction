@@ -13,6 +13,45 @@ header {
     text-align: center;
 }
 
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 14px 20px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #530000;
+    transition: background-color 0.3s;
+}
+
 section {
     margin: 20px;
     padding: 20px;
@@ -24,30 +63,6 @@ h2 {
     color: #530000;
 }
 
-h1 {
-    color: white;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-}
-
-table, th, td {
-    border: 1px solid #ddd;
-}
-
-th, td {
-    padding: 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-/* Author Biographies Section */
 .biography {
     display: flex;
     align-items: center; /* Center items vertically */
@@ -85,4 +100,23 @@ th {
 
 .biography p a:hover {
     text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
 }
