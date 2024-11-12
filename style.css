@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
+    color: black; /* Changed to black */
 }
 
 header {
@@ -20,8 +20,12 @@ section {
     border-radius: 5px;
 }
 
-h1, h2 {
-    color: #4CAF50;
+h1 {
+    color: white; /* Changed to white */
+}
+
+h2 {
+    color: #530000; /* Changed to #530000 */
 }
 
 table {
