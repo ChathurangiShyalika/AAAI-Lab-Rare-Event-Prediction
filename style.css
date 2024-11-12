@@ -20,8 +20,12 @@ section {
     border-radius: 5px;
 }
 
-h1, h2 {
+h2 {
     color: #530000;
+}
+
+h1 {
+    color: white;
 }
 
 table {
