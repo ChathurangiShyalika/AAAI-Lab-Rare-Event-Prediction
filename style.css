@@ -121,34 +121,37 @@ th {
     background-color: #f2f2f2;
 }
 
+/* General header styling */
 header {
     position: relative;
     padding: 20px;
+    text-align: center;
 }
 
+/* Center the content */
 .header-content {
-    text-align: center;
     position: relative;
 }
 
+/* Container for logos */
 .left-logos, .right-logos {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;  /* Position the logos at the bottom of the header */
     display: flex;
-    gap: 10px;
+    gap: 10px;  /* Space between logos */
 }
 
 .left-logos {
-    left: 10px;
-    justify-content: flex-start;
+    left: 10px;  /* Align the left logos to the left side */
 }
 
 .right-logos {
-    right: 10px;
-    justify-content: flex-end;
+    right: 10px;  /* Align the right logos to the right side */
 }
 
+/* Logo size */
 .left-logos img, .right-logos img {
-    width: 100px; /* adjust width */
-    height: 50px; /* adjust height */
+    width: 100px; /* Adjust the width of the logos */
+    height: 50px; /* Adjust the height of the logos */
 }
+
