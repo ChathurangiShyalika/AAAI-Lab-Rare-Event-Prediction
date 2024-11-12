@@ -13,6 +13,37 @@ header {
     text-align: center;
 }
 
+nav {
+    background-color: #530000;  /* Set the same color as header for consistency */
+    padding: 10px 0;  /* Vertical padding for the nav */
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Centers the links horizontally */
+    gap: 20px;  /* Space between each tab */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;  /* Horizontal and vertical padding */
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #a50000;  /* Darker shade for hover effect */
+    transform: scale(1.1);  /* Slightly enlarge the button on hover */
+}
+
+/* Style for sections */
 section {
     margin: 20px;
     padding: 20px;
