@@ -3,29 +3,38 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: black; /* Changed to black */
+    color: #333;
 }
 
 header {
-    background-color: #530000;
+    background-color: #4CAF50;
     color: white;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
 }
 
 section {
-    margin: 30px;
-    padding: 30px;
+    margin: 20px;
+    padding: 20px;
     background-color: white;
     border-radius: 5px;
+    line-height: 1.6; /* Increase line gap for the entire section */
 }
 
 h1 {
-    color: white; /* Changed to white */
+    color: white; /* White color for h1 */
 }
 
 h2 {
-    color: #530000; /* Changed to #530000 */
+    color: #530000; /* Dark red color for h2 */
+}
+
+p {
+    color: white; /* White color for <p> text in header */
+}
+
+.abstract {
+    line-height: 1.6; /* Increase line gap for abstract section */
 }
 
 table {
