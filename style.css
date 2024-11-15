@@ -157,8 +157,8 @@ header {
 }
 
 #biographies .bio-image img {
-            width: 300px; /* Set the width of the image */
-            height: 300px; /* Set the height of the image */
+            width: 150px; /* Set the width of the image */
+            height: 150px; /* Set the height of the image */
             object-fit: cover; /* Ensures images keep their aspect ratio */
             border-radius: 50%; /* Optional: Makes images circular */
         }
