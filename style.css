@@ -155,3 +155,10 @@ header {
     width: 200px;  /* Increased width of the logos */
     height: 100px;  /* Increased height of the logos */
 }
+
+#biographies .bio-image img {
+            width: 150px; /* Set the width of the image */
+            height: 150px; /* Set the height of the image */
+            object-fit: cover; /* Ensures images keep their aspect ratio */
+            border-radius: 50%; /* Optional: Makes images circular */
+        }
