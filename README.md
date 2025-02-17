@@ -1,1 +1,85 @@
-# AAAI-Lab-Rare-Event-Prediction
+## [AAAI 2025] Developing Explainable Multimodal AI Models: A Lab on the Lifecycle of Rare Event Prediction in Manufacturing
+
+### Introduction
+Welcome to our interactive lab session at AAAI 2025! 🎉 This lab is designed to provide participants with hands-on experience in tackling the challenges of rare event prediction in manufacturing. Through a structured approach covering data generation, preprocessing, model development, and evaluation, attendees will gain practical insights into multimodal AI modeling and its explainability.
+
+### Lab Schedule
+
+#### **Part 1 - Introduction and Overview**
+- Overview of rare event prediction and anomaly detection in smart manufacturing.
+- Discussion of objectives and expected takeaways from the lab.
+
+#### **Part 2 - Exploring Datasets for Rare Event Analysis**
+- Overview of publicly available datasets.
+- Deep dive into the Future Factories (FF) dataset and its role in rare event analysis.
+
+#### **Part 3 - Addressing Data Scarcity and Improving Data Quality**
+- Hands-on session on using data augmentation techniques and modeling approaches to improve rare event prediction.
+
+#### **Part 4 - Model Selection, Development, and Evaluation**
+- Hands-on session with anomaly prediction using robust modeling techniques, including dependency capture between anomalies.
+
+#### **Part 5 - Development and Use of Process Ontology**
+- Introduction to process ontology for rare event prediction.
+- Hands-on session on using process ontology for generating user-level explanations.
+
+#### **Summary and Q/A**
+- Recap of the session and open discussion with participants.
+
+---
+
+### **Prerequisites**
+Participants are expected to have a basic understanding of:
+- AI and Machine Learning concepts.
+- Python programming and familiarity with libraries such as PyTorch, TensorFlow, and Scikit-learn.
+- Basic knowledge of data processing techniques.
+
+### **Resources**
+- [Presentation slides (Link to be provided)](#)
+- [Additional reading materials (Link to be provided)](#)
+- [Future Factories Dataset (Link to be provided)](#)
+
+---
+
+### **FAQs**
+**Q1: Do I need prior experience with rare event prediction or multimodal AI?**  
+*A: While prior experience is beneficial, it is not mandatory. The lab is structured to guide participants through key concepts and hands-on exercises.*
+
+---
+
+### **Contributors**
+- **Chathurangi Shyalika** (University of South Carolina)
+- **Ruwan Wickramarachchi** (University of South Carolina)
+- **Revathy Venkataramanan** (University of South Carolina)
+- **Dhaval Patel** (IBM Research)
+- **Amit Sheth** (University of South Carolina)
+
+---
+
+### **Contact Information**
+For any questions or feedback, please reach out to:  
+📎 **Chathurangi Shyalika**: [jayakodc@email.sc.edu](mailto:jayakodc@email.sc.edu)  
+📎 **Ruwan Wickramarachchi**: [ruwan@email.sc.edu](mailto:ruwan@email.sc.edu)  
+📎 **Revathy Venkataramanan**: [revathy@email.sc.edu](mailto:revathy@email.sc.edu)  
+📎 **Dhaval Patel**: [pateldha@us.ibm.com](mailto:pateldha@us.ibm.com)  
+📎 **Amit Sheth**: [amit@sc.edu](mailto:amit@sc.edu)  
+
+---
+
+### **Contributing to the Lab**
+We encourage contributions and feedback to improve the lab and its materials.
+
+---
+
+### **Citation**
+If you wish to cite this lab, please use the following format:
+
+**Chathurangi Shyalika, Ruwan Wickramarachchi, Revathy Venkataramanan, Dhaval Patel, & Amit Sheth** (2025, February). *Developing Explainable Multimodal AI Models: A Lab on the Lifecycle of Rare Event Prediction in Manufacturing*. In AAAI Conference on Artificial Intelligence.
+
+```bibtex
+@inproceedings{shyalika2025rare_events,
+  title={Developing Explainable Multimodal AI Models: A Lab on the Lifecycle of Rare Event Prediction in Manufacturing},
+  author={Shyalika, Chathurangi and Wickramarachchi, Ruwan and Venkataramanan, Revathy and Patel, Dhaval and Sheth, Amit},
+  booktitle={AAAI Conference on Artificial Intelligence},
+  year={2025}
+}
