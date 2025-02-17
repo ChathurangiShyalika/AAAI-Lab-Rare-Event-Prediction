@@ -6,18 +6,18 @@ Welcome to our interactive lab session at AAAI 2025! 🎉 This lab is designed t
 ### Lab Schedule
 
 #### **Part 1 - Introduction and Overview**
-- Overview of rare event prediction and anomaly detection in smart manufacturing.
+- Overview of rare event prediction and anomaly prediction in smart manufacturing.
 - Discussion of objectives and expected takeaways from the lab.
 
 #### **Part 2 - Exploring Datasets for Rare Event Analysis**
-- Overview of publicly available datasets.
-- Deep dive into the Future Factories (FF) dataset and its role in rare event analysis.
+- Overview of publicly available datasets for rare event prediction.
+- Deep dive into manufacturing-specific datasets (Pulp-and-paper manufacturing and Future Factories (FF) datasets) and its role in rare event prediction.
 
 #### **Part 3 - Addressing Data Scarcity and Improving Data Quality**
 - Hands-on session on using data augmentation techniques and modeling approaches to improve rare event prediction.
 
 #### **Part 4 - Model Selection, Development, and Evaluation**
-- Hands-on session with anomaly prediction using robust modeling techniques, including dependency capture between anomalies.
+- Hands-on session with anomaly prediction using robust modeling techniques, including dependency capture between rare events.
 
 #### **Part 5 - Development and Use of Process Ontology**
 - Introduction to process ontology for rare event prediction.
