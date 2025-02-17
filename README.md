@@ -77,7 +77,7 @@ If you wish to cite this lab, please use the following format:
 **Chathurangi Shyalika, Ruwan Wickramarachchi, Revathy Venkataramanan, Dhaval Patel, & Amit Sheth** (2025, February). *Developing Explainable Multimodal AI Models: A Lab on the Lifecycle of Rare Event Prediction in Manufacturing*. In AAAI Conference on Artificial Intelligence.
 
 ```bibtex
-@inproceedings{shyalika2025rare_events,
+@article{shyalika2025lab,
   title={Developing Explainable Multimodal AI Models: A Lab on the Lifecycle of Rare Event Prediction in Manufacturing},
   author={Shyalika, Chathurangi and Wickramarachchi, Ruwan and Venkataramanan, Revathy and Patel, Dhaval and Sheth, Amit},
   booktitle={AAAI Conference on Artificial Intelligence},
