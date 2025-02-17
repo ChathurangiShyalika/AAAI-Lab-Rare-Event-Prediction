@@ -48,11 +48,11 @@ Participants are expected to have a basic understanding of:
 ---
 
 ### **Contributors**
-- **Chathurangi Shyalika** (University of South Carolina)
-- **Ruwan Wickramarachchi** (University of South Carolina)
-- **Revathy Venkataramanan** (University of South Carolina)
-- **Dhaval Patel** (IBM Research)
-- **Amit Sheth** (University of South Carolina)
+- **[Chathurangi Shyalika](https://www.linkedin.com/in/chathurangi-shyalika-1b89229b/)** (University of South Carolina)
+- **[Ruwan Wickramarachchi](https://ruwantw.github.io/)** (University of South Carolina)
+- **[Revathy Venkataramanan](https://www.linkedin.com/in/revathy-venkataramanan/)** (University of South Carolina)
+- **[Dhaval Patel](https://www.linkedin.com/in/dhaval-patel-2b287033/)** (IBM Research)
+- **[Amit Sheth](https://amit.aiisc.ai/)** (University of South Carolina)
 
 ---
 
