@@ -1,4 +1,4 @@
-## [AAAI 2025] Developing Explainable Multimodal AI Models: A Lab on the Lifecycle of Rare Event Prediction in Manufacturing
+## [AAAI 2025] [LQ03] Developing explainable multimodal AI models with hands-on lab on the life-cycle of rare event prediction in manufacturing
 
 ### Introduction
 Welcome to our interactive lab session at AAAI 2025! 🎉 This lab is designed to provide participants with hands-on experience in tackling the challenges of rare event prediction in manufacturing. Through a structured approach covering data generation, preprocessing, model development, and evaluation, attendees will gain practical insights into multimodal AI modeling and its explainability.
