@@ -35,9 +35,10 @@ Participants are expected to have a basic understanding of:
 - Basic knowledge of data processing techniques.
 
 ### **Resources**
-- [Presentation slides](https://shorturl.at/pPPLn)
-- [Additional reading materials](https://shorturl.at/Jrpfc)
-- [Datasets used in this lab](https://shorturl.at/5GwyO)
+- <a href="https://shorturl.at/pPPLn" target="_blank">Presentation slides</a>
+- <a href="https://shorturl.at/Jrpfc" target="_blank">Additional reading materials</a>
+- <a href="https://shorturl.at/5GwyO" target="_blank">Datasets used in this lab</a>
+
 
 ---
 
