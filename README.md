@@ -35,9 +35,9 @@ Participants are expected to have a basic understanding of:
 - Basic knowledge of data processing techniques.
 
 ### **Resources**
-- [Presentation slides (Link to be provided)](#)
-- [Additional reading materials (Link to be provided)](#)
-- [Future Factories Dataset (Link to be provided)](#)
+- [Presentation slides (https://shorturl.at/pPPLn)](#)
+- [Additional reading materials (https://shorturl.at/Jrpfc)](#)
+- [Datasets used in this lab (https://shorturl.at/5GwyO)](#)
 
 ---
 
