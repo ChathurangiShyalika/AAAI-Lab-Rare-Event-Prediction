@@ -1,4 +1,4 @@
-# [Part 3] - Problem 1: Addressing Data Scarcity and Improving the Quality
+# [Part 3] - Addressing Data Scarcity and Improving the Quality
 
 📂 **: This section includes an introduction hands-on lab focusing on using data augmentation techniques and modeling approaches to improve rare event prediction** ✨  
 
